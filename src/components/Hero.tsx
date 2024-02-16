@@ -60,7 +60,7 @@ const Hero = () => {
                         className="mt-3 text-base text-muted-foreground md:text-lg"
                     >
                         I know some progamming languages like Javascript, Typescript and others.
-                        I've created some websites and also some games.
+                        I&apos;ve created some websites and also some games.
                     </m.p>
                     <m.div
                         variants={FADE_DOWN_ANIMATION_VARIANTS}
