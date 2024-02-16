@@ -53,7 +53,7 @@ const Hero = () => {
                         variants={FADE_DOWN_ANIMATION_VARIANTS}
                         className="text-6xl my-5 font-bold md:text-6xl"
                     >
-                        👋 Hi, I'm OutroNinja
+                        👋 Hi, I&apos;m OutroNinja
                     </m.h1>
                     <m.p
                         variants={FADE_DOWN_ANIMATION_VARIANTS}
