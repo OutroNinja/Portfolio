@@ -17,7 +17,7 @@ const SiteFooter = () => {
                     },
                 },
             }}
-            className="my-10 w-full border-t bg-background"
+            className="my-10 w-full border-t bg-bacp"
         >
             <div className="container py-7">
                 <div className="flex scroll-m-20 items-center justify-between gap-5">
