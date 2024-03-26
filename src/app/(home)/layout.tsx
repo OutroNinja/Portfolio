@@ -1,5 +1,5 @@
 import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SideFooter";
+import SiteFooter from "@/components/layout/SiteFooter";
 
 export default function HomeLayout({
     children,
