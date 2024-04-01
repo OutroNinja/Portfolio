@@ -9,6 +9,8 @@ import { buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { Github } from "./icons";
 import { Badge } from "./ui/badge";
+import { MovingBorderButton } from "./ui/moving-border";
+import { Mail } from "lucide-react";
 
 const Hero = () => {
     return (
@@ -75,6 +77,14 @@ const Hero = () => {
                         >
                             <Github className="size-6" />
                             <span className="sr-only">Github</span>
+                        </Link>
+                        <Link
+                            aria-label="Contact"
+                            href={"mailto:outroninjaa@gmail.com"}
+                        >
+                            <MovingBorderButton borderRadius="0.5rem" className="p-1.5 gap-2">
+                                <Mail size="20" /> Contact Me
+                            </MovingBorderButton>    
                         </Link>
                     </m.div>
                 </div>

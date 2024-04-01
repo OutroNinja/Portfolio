@@ -20,7 +20,7 @@ const SiteHeader = () => {
                     },
                 },
             }}
-            className="sticky top-0 z-40 w-full bg-background/50 backdrop-blur-md"
+            className="sticky top-0 z-40 w-full"
         >
             <motion.div
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
